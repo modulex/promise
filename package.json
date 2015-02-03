@@ -1,6 +1,6 @@
 {
   "name": "modulex-promise",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
     "node": "~0.11"
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/yiminghe/promise.git"
+    "url": "http://github.com/modulex/promise.git"
   },
   "devDependencies": {
     "aggregate-bower": "^1.0.10",
