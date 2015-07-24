@@ -4,7 +4,6 @@
 ES6-compatible promise library. Promise/A+ implementation.
 
 [![promise](https://nodei.co/npm/modulex-promise.png)](https://npmjs.org/package/modulex-promise)
-[![SPM version](http://spmjs.io/badge/modulex-promise)](http://spmjs.io/package/modulex-promise)
 [![NPM downloads](http://img.shields.io/npm/dm/modulex-promise.svg)](https://npmjs.org/package/modulex-promise)
 [![Build Status](https://secure.travis-ci.org/modulex/promise.png?branch=master)](https://travis-ci.org/modulex/promise)
 [![Coverage Status](https://img.shields.io/coveralls/modulex/promise.svg)](https://coveralls.io/r/modulex/promise?branch=master)

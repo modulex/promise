@@ -1,9 +1,10 @@
 {
   "name": "modulex-promise",
-  "version": "1.1.5",
+  "version": "1.1.7",
+  "description": "ES6-compatible promise library. Promise/A+ implementation.",
   "author": "yiminghe <yiminghe@gmail.com>",
   "engines": {
-    "node": "~0.11"
+    "node": ">=0.10"
   },
   "license": "MIT",
   "repository": {
@@ -50,7 +51,7 @@
     "saucelabs": "DEBUG=saucelabs-runner gulp saucelabs",
     "lint": "gulp lint",
     "start": "node --harmony node_modules/.bin/rc-server",
-    "publish": "spm publish && gulp tag",
+    "publish": "gulp tag",
     "test": "node --harmony ./node_modules/rc-server/node_modules/mocha/bin/mocha --harmony -R list tests/node/specs",
     "browser-test": "mocha-phantomjs http://localhost:$npm_package_config_port/tests/runner.html",
     "browser-test-cover": "mocha-phantomjs -R node_modules/rc-server/node_modules/node-jscover/lib/reporters/mocha/console http://localhost:$npm_package_config_port/tests/runner.html?coverage"
